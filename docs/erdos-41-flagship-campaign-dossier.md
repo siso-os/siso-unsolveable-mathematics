@@ -142,7 +142,7 @@ A dedicated proof repository, if later promoted, should separate:
 - `statements/` — canonical statement and variants;
 - `lean/` — trusted statement, known cases, candidate lemmas, audit;
 - `experiments/` — solver models and reproducible finite searches;
-- `data/` — extremisers, statistics, counterexamples;
+- `ops/data/` — extremisers, statistics, counterexamples;
 - `certificates/` — independently replayable finite evidence;
 - `attempts/` — hypothesis, prompt, transcript, proof, verdict per attempt;
 - `comparator/` — trusted challenge separated from untrusted proof code;
